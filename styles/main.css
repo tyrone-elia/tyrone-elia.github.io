@@ -1,0 +1,59 @@
+*,
+*::before,
+*::after {
+Box-sizing: border-box;
+}
+
+
+body {
+  background: whitesmoke;
+  color: rgb(8, 8, 8);
+  }
+  h1 {
+    border: 2px solid rgb(222, 222, 222);
+    font-family: 'Space Grotesk', monospace;
+    color: black;
+    text-align: left;
+    font-weight: 200; 
+    font-size: 60px;
+    line-height: 125px; 
+    padding: 30px; 
+    margin: 20px;
+  }
+  h2 {
+    color: black;
+    font-family: 'Space Grotesk', monospace;
+    padding: 1em;
+    margin: 1em;
+  }
+  h3 {
+    color: black;
+    font-family: monospace;
+    font-size: 20px;
+    padding: 1rem;
+    margin: 1em;
+  }
+  p {
+    padding: 16px;
+    margin: 20px;
+  }
+  .columns {
+    display: grid;
+    gap: 1em;
+    padding: 15px;
+    grid-template-columns: 20% 20% 50%;
+  }
+  .box {
+    width: 100px;
+    padding: 10px;
+    border: 2px solid;
+    border-color: lightgray;
+  }
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 10%;
+    color: #000;
+    text-align: left;
+  }
