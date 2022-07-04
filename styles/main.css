@@ -36,7 +36,14 @@ body {
     margin: 5px;
     padding: 0px 250px;
   }
-  
+  h4 {
+    color: black;
+    font-family: 'Space Grotesk', monospace;
+    font-size: 27px;
+    padding: 1em;
+    margin: 1em;
+    
+  }
   p {
     font-family: 'Space Grotesk', monospace;
     font-size: 20px;
