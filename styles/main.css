@@ -60,7 +60,7 @@ body {
     display: grid;
     gap: 1em;
     padding: 20px;
-    grid-template-columns: 40% 40%;
+    grid-template-columns: 30% 30%;
   }
   .lil-box {
     width: 100px;
