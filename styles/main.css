@@ -13,6 +13,12 @@ body {
       background-color: lightblue;
     }
   }  
+  @media only screen and (max-width: 320px) {
+    body {
+      background-color: lightgray;
+    }
+  }  
+
   h1 {
     border: 2px solid rgb(222, 222, 222);
     font-family: 'Space Grotesk', monospace;
