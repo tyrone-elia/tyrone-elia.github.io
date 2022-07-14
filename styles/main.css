@@ -118,7 +118,7 @@ body {
     margin: 20px;
   }
   .mini-image {
-    width: 00px;
+    width: 200px;
     position: relative;
     padding: 20px;
     margin: 20px;
@@ -130,6 +130,10 @@ body {
   .right-align-image {
     float: right;
   }
+  .center-align-image {
+    float: center;
+  }
+  
   .image-down {
     margin-top: 50px;
   }
