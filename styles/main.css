@@ -7,6 +7,8 @@ body {
   background: rgb(111, 159, 174);
   color: rgb(65, 85, 105);
   text-align: center;
+  font-size: 17px;
+  font-family: fantasy;
   }
   @media only screen and (min-width: 1200px) {
     body {
